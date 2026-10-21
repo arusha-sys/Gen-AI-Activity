@@ -1,34 +1,21 @@
-# Gen-AI-Activity
+# Student Management System
 
-Student Management System
+## Project Description
+The Student Management System is a simple Python console-based application that allows users to manage student information, add student marks, and record student attendance. The program uses a list and dictionaries to store student data while the application is running.
 
-Description
+## Features
+- **Add Student:** Add a new student by entering their name and roll number.
+- **View All Students:** Display the names and roll numbers of all registered students.
+- **Add Student Marks:** Add marks for a student using their roll number. Marks must be between 0 and 100.
+- **Mark Student Attendance:** Record a student's attendance as Present or Absent using their roll number.
+- **Exit:** Exit the application.
 
-The Student Management System is a basic Python project that allows users to manage student details. It uses simple Python functions and a menu-driven interface to add students, view all students, and exit the application.
+## How to Run
+1. Make sure Python is installed on your system.
+2. Save the Python code in a file named `student_management.py`.
+3. Open a terminal in the folder containing the file.
+4. Run the following command:
+5. Select an option from the displayed menu to use the application.
 
-Features
-
-Add Student: Enter a student's name and roll number.
-
-View All Students: Display the details of all added students.
-
-Exit: Close the application.
-
-Technologies Used
-
-Python 3
-
-Project Structure
-Student-Management-System/
-└── student\_management.py
-
-Note
-
-Student records are stored temporarily in memory. The data is lost when the application is closed.
-
-Author
-
-Student Project
-
-Edited By: Maryam Saeed
-
+## Data Storage
+Student information, marks, and attendance are stored in memory while the program is running. The data is not permanently saved after the application exits.

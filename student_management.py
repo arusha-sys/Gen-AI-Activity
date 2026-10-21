@@ -1,4 +1,3 @@
-
 students = []
 
 def add_student():
@@ -11,23 +10,31 @@ def add_student():
     }
 
     students.append(student)
-    print("Student added successfully!")
+    print("Student added successfully!\n")
 
-def view_students():
-    if len(students) == 0:
-        print("No students found.")
-    else:
-        print("\nStudent Details:")
-        for student in students:
+
+def search_student():
+    roll_number = input("Enter roll number to search: ")
+    found = False
+    
+    for student in students:
+        if student["roll_number"] == roll_number:
+            print("\n--- Student Found ---")
             print("Name:", student["name"])
             print("Roll Number:", student["roll_number"])
-            print("--------------------")
+            print("---------------------\n")
+            found = True
+            break
+            
+    if not found:
+        print("Student not found with this roll number.\n")
+
 
 def main():
     while True:
-        print("\n--- Student Management System ---")
+        print("=== Student Management System ===")
         print("1. Add Student")
-        print("2. View Students")
+        print("2. Search Student")
         print("3. Exit")
 
         choice = input("Enter your choice: ")
@@ -35,11 +42,11 @@ def main():
         if choice == "1":
             add_student()
         elif choice == "2":
-            view_students()
+            search_student()
         elif choice == "3":
-            print("Exiting application...")
+            print("Exiting application. Goodbye!")
             break
         else:
-            print("Invalid choice. Try again.")
+            print("Invalid choice. Please try again.\n")
 
 main()

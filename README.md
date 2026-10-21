@@ -1,28 +1,15 @@
-# Student Management System
+Student Management System
 
-## Description
-The Student Management System is a basic Python project that allows users to manage student details. It uses simple Python functions and a menu-driven interface to add students, view all students, and exit the application.
+Description
 
-## Features
-- **Add Student:** Enter a student's name and roll number.
-- **View All Students:** Display the details of all added students.
-- **Exit:** Close the application.
+A simple Python-based application designed to manage student records efficiently. The system allows users to add new student information and remove existing entries using a roll number.
 
-## Technologies Used
-- Python 3
+Note: The View All Students feature has been removed from this system to streamline record handling.
 
+Features
 
-4. Choose an option from the menu to use the application.
+Add Student: Prompts for student details such as name and roll number, then saves them to the system.
 
-## Project Structure
-```text
-Student-Management-System/
-└── student_management.py
-```
+Delete Student by Roll Number: Searches for a student by their unique roll number and removes their entry from the system.
 
-## Note
-Student records are stored temporarily in memory. The data is lost when the application is closed.
-
-## Author
-Arusa Shaukat
-
+Exit: Safely closes the application.

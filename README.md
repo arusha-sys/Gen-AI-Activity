@@ -24,5 +24,5 @@ Student-Management-System/
 Student records are stored temporarily in memory. The data is lost when the application is closed.
 
 ## Author
-Student Project
+Arusa Shaukat
 

@@ -1,4 +1,5 @@
 # Gen-AI-Activity
+
 Student Management System
 
 Description
@@ -19,7 +20,7 @@ Python 3
 
 Project Structure
 Student-Management-System/
-└── student_management.py
+└── student\_management.py
 
 Note
 
@@ -28,3 +29,6 @@ Student records are stored temporarily in memory. The data is lost when the appl
 Author
 
 Student Project
+
+Edited By: Maryam Saeed
+

@@ -11,9 +11,6 @@ The Student Management System is a basic Python project that allows users to man
 ## Technologies Used
 - Python 3
 
-
-4. Choose an option from the menu to use the application.
-
 ## Project Structure
 ```text
 Student-Management-System/
